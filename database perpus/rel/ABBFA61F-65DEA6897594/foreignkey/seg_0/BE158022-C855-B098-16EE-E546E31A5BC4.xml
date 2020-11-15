@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4B5715CD-6504-2E25-A421-C92CDA259DFA" containerWithKeyObject="CF1D59C1-24DC-1205-1A49-630010A29493" localFKIndex="CC9B5768-9845-5215-F5E5-B0FA8DF7C871" name="dsn_pinjam_Pinjaman_Dosen_FK">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>EB7D6DCB-F218-C1BC-FA6B-74FE329D8BB0</generatorID>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE158022-C855-B098-16EE-E546E31A5BC4" containerWithKeyObject="302F5A5C-EB15-A221-1D8F-3F6A017C56A4" localFKIndex="DAFC7AAF-4EDF-7801-3360-FA773528F276" name="Peminjaman_Pinjaman_Dosen_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:55:03 UTC</createdTime>
+<generatorID>2C8B3D54-0AD2-54FA-9ADB-02979C91E333</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
 <referredTableLongName>Pinjaman_Dosen</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

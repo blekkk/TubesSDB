@@ -28,60 +28,6 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="mhs_id" id="ED662C79-346C-4C98-2B4E-2C7A5CEF1347">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:20:13 UTC</createdTime>
-<ownerDesignName>database perpus</ownerDesignName>
-<engineerTo>
-<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dosen_id" id="4CCB813D-3A8B-AD91-6264-DC52EFF1DA71">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:50:08 UTC</createdTime>
-<ownerDesignName>database perpus</ownerDesignName>
-<engineerTo>
-<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="buku_id" id="4A1B6F74-F3E7-B5A2-6A5F-2BE873CC47D6">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:21:07 UTC</createdTime>
-<ownerDesignName>database perpus</ownerDesignName>
-<engineerTo>
-<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="denda_id" id="3791B6B7-6886-D753-E2A4-AA45A793B052">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:47:19 UTC</createdTime>
-<ownerDesignName>database perpus</ownerDesignName>
-<engineerTo>
-<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="tanggal_peminjaman" id="CEF2C96F-D4CB-BCAC-F304-0808E6028267">
 <createdBy>Bima</createdBy>
 <createdTime>2020-11-15 12:21:23 UTC</createdTime>
@@ -106,14 +52,30 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="denda_id1" id="937A65BF-0183-596C-BA75-55370C2B0422">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:37:17 UTC</createdTime>
+<generatorID>D3A0BDE7-F72B-CDDB-E5EE-7AD68CC97910</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<engineerTo>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+</engineerTo>
+<referedAttribute>34CE740A-5885-2695-1453-40DA451959E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="37ECA220-BBB8-CD5D-1D4E-B6CDBD538928" name="Peminjaman PK">
 <createdBy>Bima</createdBy>
 <createdTime>2020-11-15 12:20:11 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

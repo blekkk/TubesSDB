@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="383D5B21-40F7-50A0-F587-30F678861568" name="Peminjam_Mahasiswa">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>D3379241-8B5E-A20A-5189-3E315704287E</generatorID>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03DE9E31-9DC3-57C9-D43B-DA21AB42E6E1" name="Pinjaman_Mhs">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:48:57 UTC</createdTime>
+<generatorID>66176F6C-DED4-F84B-93AC-6927158CFBBE</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="mhs_id" id="1B029D8F-542E-A8CC-4D36-E4E6723BC239">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>31ACFCEA-9A9E-3245-12BD-B719A9BE8011</generatorID>
+<Column name="mhs_id" id="F998B0EB-69A6-0E19-D4D9-316950B7578E">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:48:57 UTC</createdTime>
+<generatorID>2A0B3311-E8A8-CE3B-DFAC-97FD052D795B</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,22 +20,22 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nim" id="8A3A6C51-1E2B-D844-A79C-CFF383CEBC6F">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>33AEEF30-B9A0-FE52-89A0-F77152F1DC27</generatorID>
+<Column name="nim" id="6B93CE12-982E-4774-ED77-D422886DAA90">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:48:57 UTC</createdTime>
+<generatorID>0F8C5796-F8CA-6508-1B03-34FFFFE6FC87</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nama_lengkap_mhs" id="43ADD514-6358-D5DD-7ABA-5BCD4DFA11F3">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>19175471-7DA2-2ABC-323D-3A15F6AA5381</generatorID>
+<Column name="nama_lengkap" id="60ED36CC-AEBC-1171-A407-B1BB9F2739AB">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:48:57 UTC</createdTime>
+<generatorID>6C33E366-7938-8E77-26BB-63E9A913C51B</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,30 +44,30 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="gender_mhs" id="68F565F3-6527-FB41-150E-7EA60513609A">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>DD97D28F-DD2A-889A-C11C-B822956E25E8</generatorID>
+<Column name="gender" id="0BAC01D7-44BB-17E0-8215-B9696EE0F9CC">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:48:57 UTC</createdTime>
+<generatorID>CD5E8B4C-7311-6D81-A694-9DA6648AE7A1</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D0145E9E-7D31-BA73-13BD-82F7A1EA3650" name="Peminjam_Mahasiswa_PK">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>E444F6BF-9F26-589F-C0AA-F8D59C489BC1</generatorID>
+<ind_PK_UK id="51CA9CD9-78B6-1B95-B80B-DD8D913CBF9E" name="Pinjaman_Mhs_PK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:48:57 UTC</createdTime>
+<generatorID>7DC2AE2D-09C3-EBA8-B39B-97E0EB1FFAF2</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1B029D8F-542E-A8CC-4D36-E4E6723BC239"/>
+<colUsage columnID="F998B0EB-69A6-0E19-D4D9-316950B7578E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

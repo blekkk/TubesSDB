@@ -42,7 +42,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Peminjaman_pinjam_id" id="10ED9C6E-4344-BAA5-E72D-E57DBC288B4E">
+<Column name="pinjam_id" id="10ED9C6E-4344-BAA5-E72D-E57DBC288B4E">
 <createdBy>Bima</createdBy>
 <createdTime>2020-11-15 12:54:05 UTC</createdTime>
 <generatorID>144CE094-BF55-F4CA-65B0-90E2A99E8C7F</generatorID>
@@ -51,12 +51,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="FB8724E3-7212-D0DD-A18B-5AB91A2F637F" referredColumn="86C7B733-2C2A-A8F4-2B30-1BC8B78076F6"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -79,17 +76,6 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>D3A0BDE7-F72B-CDDB-E5EE-7AD68CC97910</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="10ED9C6E-4344-BAA5-E72D-E57DBC288B4E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="C1DADA7D-609B-3359-F102-FEF604B2EACD" name="Denda_Peminjaman_FK">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>D3A0BDE7-F72B-CDDB-E5EE-7AD68CC97910</generatorID>
-<ownerDesignName>database perpus</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="10ED9C6E-4344-BAA5-E72D-E57DBC288B4E"/>
 </indexColumnUsage>

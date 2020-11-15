@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3379241-8B5E-A20A-5189-3E315704287E" name="Peminjam Mahasiswa">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:14:06 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66176F6C-DED4-F84B-93AC-6927158CFBBE" name="Pinjaman_Mhs">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:46:06 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="mhs_id" id="31ACFCEA-9A9E-3245-12BD-B719A9BE8011">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:14:39 UTC</createdTime>
+<Attribute name="mhs_id" id="2A0B3311-E8A8-CE3B-DFAC-97FD052D795B">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:46:19 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
@@ -28,9 +28,9 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nim" id="33AEEF30-B9A0-FE52-89A0-F77152F1DC27">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:39:23 UTC</createdTime>
+<Attribute name="nim" id="0F8C5796-F8CA-6508-1B03-34FFFFE6FC87">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:46:19 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
@@ -38,12 +38,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nama_lengkap_mhs" id="19175471-7DA2-2ABC-323D-3A15F6AA5381">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:15:07 UTC</createdTime>
+<Attribute name="nama_lengkap" id="6C33E366-7938-8E77-26BB-63E9A913C51B">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:46:20 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
@@ -54,9 +54,9 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="gender_mhs" id="DD97D28F-DD2A-889A-C11C-B822956E25E8">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:16:28 UTC</createdTime>
+<Attribute name="gender" id="CD5E8B4C-7311-6D81-A694-9DA6648AE7A1">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:46:20 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
@@ -64,21 +64,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E444F6BF-9F26-589F-C0AA-F8D59C489BC1" name="Anggota PK">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:18:59 UTC</createdTime>
+<identifier id="7DC2AE2D-09C3-EBA8-B39B-97E0EB1FFAF2" name="Pinjaman_Mhs PK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:46:37 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>2A0B3311-E8A8-CE3B-DFAC-97FD052D795B</newElementsIDs>
 <usedAttributes>
-<attributeRef>31ACFCEA-9A9E-3245-12BD-B719A9BE8011</attributeRef>
+<attributeRef>2A0B3311-E8A8-CE3B-DFAC-97FD052D795B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

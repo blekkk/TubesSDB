@@ -37,6 +37,7 @@
 <createdTime>2020-11-15 12:54:05 UTC</createdTime>
 <generatorID>07497491-84E0-7F5E-1624-37F908B0ABBB</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

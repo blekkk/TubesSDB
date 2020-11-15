@@ -48,6 +48,7 @@
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -60,8 +61,9 @@
 <createdBy>Bima</createdBy>
 <createdTime>2020-11-15 12:30:28 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

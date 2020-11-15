@@ -54,45 +54,6 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="penulis_id" id="A5779493-9611-D80B-3400-1A97D3F31758">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:23:42 UTC</createdTime>
-<ownerDesignName>database perpus</ownerDesignName>
-<engineerTo>
-<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="penerbit_id" id="FFD4B3A3-F337-96F6-5212-C1680F4AD07E">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:45:17 UTC</createdTime>
-<ownerDesignName>database perpus</ownerDesignName>
-<engineerTo>
-<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tipe_id" id="4B23DA24-8901-ABE2-71B5-1E8F4B8F3F2D">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:24:13 UTC</createdTime>
-<ownerDesignName>database perpus</ownerDesignName>
-<engineerTo>
-<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="penulis_id1" id="13C9AFC6-5D1B-FB01-98B3-AF29AD7B49CD">
 <createdBy>Bima</createdBy>
 <createdTime>2020-11-15 12:42:09 UTC</createdTime>
@@ -124,21 +85,6 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pinjam_id" id="6F1DFB94-966C-55CE-4EFD-FF365C9B0D96">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:43:15 UTC</createdTime>
-<generatorID>3D7FFE71-54F0-639D-573F-FC124D3B7695</generatorID>
-<ownerDesignName>database perpus</ownerDesignName>
-<engineerTo>
-<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
-</engineerTo>
-<referedAttribute>ACD84792-142C-C2B5-FC44-0BB5465F2D0D</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="penerbit_id1" id="F1812913-0F8F-A9B8-9F35-1CC1809A68F3">
 <createdBy>Bima</createdBy>
 <createdTime>2020-11-15 12:46:40 UTC</createdTime>
@@ -155,14 +101,30 @@
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="pinjam_id" id="FDA648FD-561C-4570-9488-D3A9797CC648">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 13:38:27 UTC</createdTime>
+<generatorID>3D7FFE71-54F0-639D-573F-FC124D3B7695</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<engineerTo>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+</engineerTo>
+<referedAttribute>ACD84792-142C-C2B5-FC44-0BB5465F2D0D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="56C1DBD1-9D6D-A8AC-AE7F-A5C69A2D935E" name="Buku PK">
 <createdBy>Bima</createdBy>
 <createdTime>2020-11-15 12:22:37 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
