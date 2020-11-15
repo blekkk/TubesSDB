@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="302F5A5C-EB15-A221-1D8F-3F6A017C56A4" name="Peminjaman">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>6C00CBBD-7FE5-5A97-A337-21EA5AF624DF</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pinjam_id" id="86C7B733-2C2A-A8F4-2B30-1BC8B78076F6">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>ACD84792-142C-C2B5-FC44-0BB5465F2D0D</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mhs_id" id="6230DBA5-DDF1-72BB-C59C-0C46D91952E1">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>ED662C79-346C-4C98-2B4E-2C7A5CEF1347</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dosen_id" id="B47082EC-EB10-4EDC-A3DF-42FB14D8FB58">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>4CCB813D-3A8B-AD91-6264-DC52EFF1DA71</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="buku_id" id="7E4D4CB0-5B5F-9B20-346C-D79AE38C892F">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>4A1B6F74-F3E7-B5A2-6A5F-2BE873CC47D6</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="denda_id" id="1E638405-043B-7EEE-32CB-B2FED46F831F">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>3791B6B7-6886-D753-E2A4-AA45A793B052</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_peminjaman" id="EE247F68-0A4E-95E0-4F05-1E8DB21F363A">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>CEF2C96F-D4CB-BCAC-F304-0808E6028267</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_pengembalian" id="9C3D4C38-BEAB-34BD-57F6-C1E77E0E70E8">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>CCE43315-B92C-B96E-C306-4377D1B9F172</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7986DF0E-98B7-7C8D-FF68-BC020A874AE4" name="Peminjaman_PK">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>37ECA220-BBB8-CD5D-1D4E-B6CDBD538928</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86C7B733-2C2A-A8F4-2B30-1BC8B78076F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

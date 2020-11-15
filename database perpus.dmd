@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="database perpus" id="69A3CE2A-0CCE-47A7-95C9-E7770802996E" version="3.5">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:03:03 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>69A3CE2A-0CCE-47A7-95C9-E7770802996E</designId>
+</OSDM_Design>

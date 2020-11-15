@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="penerbit_bk" directorySegmentName="seg_0" id="76E92833-40C0-631A-8533-6217E6D41512">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:46:21 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<engineerTo>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+</engineerTo>
+<sourcePk>56C1DBD1-9D6D-A8AC-AE7F-A5C69A2D935E</sourcePk>
+<targetPk>68A04C39-C63A-F68E-B98C-8E8C29A73544</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D6233775-8748-73F1-57C6-928BF8A31453</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>84478BB9-7F3A-8563-4ABC-4B408BCF6F6E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

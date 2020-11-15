@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="penulis_bk" directorySegmentName="seg_0" id="F10D021D-BEA9-C481-35CB-5A7B29C19043">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:41:26 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<engineerTo>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+</engineerTo>
+<sourcePk>56C1DBD1-9D6D-A8AC-AE7F-A5C69A2D935E</sourcePk>
+<targetPk>300CB808-2948-9821-F7AD-8372D80435C1</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D6233775-8748-73F1-57C6-928BF8A31453</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0A4A32AF-7713-15C7-5C72-F7891417A309</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

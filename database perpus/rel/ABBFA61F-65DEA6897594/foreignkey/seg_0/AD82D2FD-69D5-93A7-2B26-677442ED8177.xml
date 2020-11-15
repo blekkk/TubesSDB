@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AD82D2FD-69D5-93A7-2B26-677442ED8177" containerWithKeyObject="180E576B-BF6B-989D-65D7-1400CAE6CF53" localFKIndex="799C77FB-90B3-87C1-1571-A20F561FE128" name="mhs_pinjam_Peminjam_Mahasiswa_FK">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>AE0DDEE3-DE49-C150-8CF3-9090A1DFBAAF</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<referredTableLongName>Peminjam_Mahasiswa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>383D5B21-40F7-50A0-F587-30F678861568</referredTableID>
+<keyObject>D0145E9E-7D31-BA73-13BD-82F7A1EA3650</keyObject>
+<referredKeyID>D0145E9E-7D31-BA73-13BD-82F7A1EA3650</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mhs_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

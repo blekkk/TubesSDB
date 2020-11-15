@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5323322-71EF-A9A4-395A-3E912884A915" containerWithKeyObject="80BBC276-8579-1B66-2919-63B3DE44F2EC" localFKIndex="FE342217-31AC-A2DB-7DD9-2665D57CA434" name="Buku_Penulis_FK">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>F10D021D-BEA9-C481-35CB-5A7B29C19043</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<referredTableLongName>Penulis</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A537903E-B1F6-A761-4D6F-195C3F085009</referredTableID>
+<keyObject>F8465376-9533-8844-AB51-A1D7F205FDCE</keyObject>
+<referredKeyID>F8465376-9533-8844-AB51-A1D7F205FDCE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>penulis_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

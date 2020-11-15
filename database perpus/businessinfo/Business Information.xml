@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="12E31F35-3935-D27A-A04C-25B0FBE7D012">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:03:03 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

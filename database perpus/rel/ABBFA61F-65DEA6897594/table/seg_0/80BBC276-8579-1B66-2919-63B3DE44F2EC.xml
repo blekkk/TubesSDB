@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80BBC276-8579-1B66-2919-63B3DE44F2EC" name="Buku">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>D6233775-8748-73F1-57C6-928BF8A31453</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="buku_id" id="9DFA83C4-0058-9738-FD3F-D59FD286AA62">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>B3882D68-EACD-D99C-CB13-332F38B7085F</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_buku" id="BB12170B-9D95-1254-04CE-2577AC20D651">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>853FF74F-B861-53D5-6B4F-43580EFD1D44</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jumlah_halaman" id="E60A79D6-9A8A-7A67-4547-440D6DED589C">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>D2B70399-2E71-A739-DB6F-0DE1CA8D001E</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penulis_id" id="8518F5CE-55B8-6463-D051-6C87E5CF5CAA">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>A5779493-9611-D80B-3400-1A97D3F31758</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penerbit_id" id="08A9D011-7862-8A2B-1209-3EB6CEF96844">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>FFD4B3A3-F337-96F6-5212-C1680F4AD07E</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipe_id" id="525FF1B5-07EC-D2FB-F298-4E8C0E72FE34">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>4B23DA24-8901-ABE2-71B5-1E8F4B8F3F2D</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Penulis_penulis_id" id="0AC9E19A-5A67-88E9-4BA4-0E9288887446">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>13C9AFC6-5D1B-FB01-98B3-AF29AD7B49CD</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5323322-71EF-A9A4-395A-3E912884A915" referredColumn="C649120B-8A1F-49BE-0ECB-AE3B91F8FF3F"/>
+</associations>
+</Column>
+<Column name="Tipe_Buku_tipe_id" id="8F163CCC-E513-DB58-A682-FB72323B3817">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>B0FDE3EA-77D4-02EF-CFC3-6A987A05AEF7</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0BA76AD-6CA4-0AAF-837B-CF7044134F33" referredColumn="0EC508B7-26FA-EC6F-39B6-B26EE5F72613"/>
+</associations>
+</Column>
+<Column name="Peminjaman_pinjam_id" id="97BA9C40-C345-CE02-1422-85BA9B929D6A">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>6F1DFB94-966C-55CE-4EFD-FF365C9B0D96</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24B0771D-C6A3-2FA4-1320-507211DD5DD5" referredColumn="86C7B733-2C2A-A8F4-2B30-1BC8B78076F6"/>
+</associations>
+</Column>
+<Column name="Penerbit_penerbit_id" id="AF3E0CE3-4E70-908E-6541-E61F4BF6B37F">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>F1812913-0F8F-A9B8-9F35-1CC1809A68F3</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="608E6A2F-227F-B7B3-B593-690DEED3EAB6" referredColumn="949D020B-6553-30D6-2474-9191B57B584A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0659A6EE-7B7A-8B83-F7ED-A8FE3ADAA8BC" name="Buku_PK">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>56C1DBD1-9D6D-A8AC-AE7F-A5C69A2D935E</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DFA83C4-0058-9738-FD3F-D59FD286AA62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="572FAC8D-7FEB-5396-68EE-4605325B1DF6" name="Buku_Penerbit_FK">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>76E92833-40C0-631A-8533-6217E6D41512</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF3E0CE3-4E70-908E-6541-E61F4BF6B37F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE342217-31AC-A2DB-7DD9-2665D57CA434" name="Buku_Penulis_FK">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>F10D021D-BEA9-C481-35CB-5A7B29C19043</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AC9E19A-5A67-88E9-4BA4-0E9288887446"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43B4D43C-501E-B788-49E8-B88BFFAC72A8" name="Buku_Peminjaman_FK">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>3D7FFE71-54F0-639D-573F-FC124D3B7695</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97BA9C40-C345-CE02-1422-85BA9B929D6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4100815-2213-2B1C-9F28-C0E8A30104CA" name="Buku_Tipe_Buku_FK">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:54:05 UTC</createdTime>
+<generatorID>27C50F5F-3026-8D9D-BEA7-0DF8E22E7F08</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F163CCC-E513-DB58-A682-FB72323B3817"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="6F0BEF5A-431E-51D6-6A0F-B65B8211F194">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:03:03 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

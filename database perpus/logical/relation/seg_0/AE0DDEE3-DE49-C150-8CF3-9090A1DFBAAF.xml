@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mhs_pinjam" directorySegmentName="seg_0" id="AE0DDEE3-DE49-C150-8CF3-9090A1DFBAAF">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:43:32 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<engineerTo>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+</engineerTo>
+<sourcePk>E444F6BF-9F26-589F-C0AA-F8D59C489BC1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D3379241-8B5E-A20A-5189-3E315704287E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6C00CBBD-7FE5-5A97-A337-21EA5AF624DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

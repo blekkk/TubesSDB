@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="26879CF4-B70D-2891-5F80-AA0E5E07882B" mainViewID="21358A98-A7CE-9BC4-9C5D-0E2F80383699">
+<createdBy>Bima</createdBy>
+<createdTime>2020-11-15 12:03:03 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
