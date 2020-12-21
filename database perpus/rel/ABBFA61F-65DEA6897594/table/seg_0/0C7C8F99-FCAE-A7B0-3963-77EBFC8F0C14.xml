@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C7C8F99-FCAE-A7B0-3963-77EBFC8F0C14" name="Dendav1">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>2722FC17-31A8-53D3-ACAA-9F507D5829DC</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="denda_id" id="9FC042E8-89EC-AFFC-6FDE-784025BC2D71">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>27EE2661-51B8-4420-75E8-5FE34E244FCC</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="denda_perhari" id="BE1199E9-F367-EDD6-1296-78563360D50B">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>05E24C08-A2F2-BB3E-A96A-274534625142</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sanksi_sanksi_id" id="CF6B65AF-5B14-D1A0-70B6-7C16D4754D8A">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>BC4F97FB-2E33-13FB-969E-BF83843E6EA0</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="854EEE46-25F5-6DA6-E3FE-131004C48084" referredColumn="34F3D565-0F01-FE1B-F976-5C5CE4BE6598"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27AEFC8A-8466-1773-5B33-A122FD4F69C5" name="Dendav1_PK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:35:46 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FC042E8-89EC-AFFC-6FDE-784025BC2D71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95813554-354B-6E02-8759-B0B9691A7BFD" name="Dendav1_Sanksi_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>517D8C13-337A-23E6-DADD-AB72DF2BA224</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF6B65AF-5B14-D1A0-70B6-7C16D4754D8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

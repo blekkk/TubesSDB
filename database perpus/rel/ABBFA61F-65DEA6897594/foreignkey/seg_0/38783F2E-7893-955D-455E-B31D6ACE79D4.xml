@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="38783F2E-7893-955D-455E-B31D6ACE79D4" containerWithKeyObject="67FE8A59-B881-2530-0975-DDE4AD1228B6" localFKIndex="9711A045-7FE6-7D7D-EDBC-8B4D618533EA" name="Status_Anggota_P_Dsn_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>CD1DD537-0118-3728-E4E1-9ED392A47535</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<referredTableLongName>Pinjaman_Dosen</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC1E5435-1723-A608-EEA1-C805ED4EA332</referredTableID>
+<keyObject>DF1D6083-105D-4DEA-3D56-E78156EB3F21</keyObject>
+<referredKeyID>DF1D6083-105D-4DEA-3D56-E78156EB3F21</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>dsn_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

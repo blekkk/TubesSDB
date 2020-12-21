@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D1C7700A-320C-C314-26FE-1AA8EBB0BB0D" containerWithKeyObject="49194D0A-4367-DF94-850B-08C9EA95DAD6" localFKIndex="CA2CB911-38E6-98B3-7EA0-343DAC46CECD" name="Ganti_Buku_Sanksi_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>9792F1BC-B03D-342F-F9B4-A5310C2C6FE2</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<referredTableLongName>Sanksi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6C205E06-A8DE-11D9-5046-ADC1CDDB801D</referredTableID>
+<keyObject>CA56D872-B22E-0884-FA2E-C956092870A2</keyObject>
+<referredKeyID>CA56D872-B22E-0884-FA2E-C956092870A2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>sanksi_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

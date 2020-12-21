@@ -9,7 +9,7 @@
 <referredTableID>C66ABC16-B872-E4C1-8B82-FD1F2DD17DE8</referredTableID>
 <keyObject>576889CD-BD12-1A59-C6D6-F7A7C8AACF39</keyObject>
 <referredKeyID>576889CD-BD12-1A59-C6D6-F7A7C8AACF39</referredKeyID>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <refColNames>penerbit_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

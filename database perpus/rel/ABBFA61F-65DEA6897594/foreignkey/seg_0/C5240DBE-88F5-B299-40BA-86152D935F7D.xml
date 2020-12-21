@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5240DBE-88F5-B299-40BA-86152D935F7D" containerWithKeyObject="67FE8A59-B881-2530-0975-DDE4AD1228B6" localFKIndex="27F71F98-6055-DD26-5B95-BA17FD001BAC" name="Status_Anggota_P_Mhs_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>763524EB-54E4-F7A2-2441-F6732B75310C</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<referredTableLongName>Pinjaman_Mhs</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>03DE9E31-9DC3-57C9-D43B-DA21AB42E6E1</referredTableID>
+<keyObject>51CA9CD9-78B6-1B95-B80B-DD8D913CBF9E</keyObject>
+<referredKeyID>51CA9CD9-78B6-1B95-B80B-DD8D913CBF9E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nim</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="309106C7-9D42-B988-54B9-093BEC278A47" name="Status_Anggota">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 12:52:00 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<engineerTo>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Aktif_Hingga" id="13B74DD4-991D-5D8D-6CD2-D8B8BB21CB07">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 12:52:18 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<engineerTo>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status_Sanksi" id="82564E76-169F-BDAB-F354-6377A250F8EE">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 12:52:18 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<engineerTo>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dsn_id" id="2787FE27-A175-C665-C902-A8D332EF114F">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 12:53:49 UTC</createdTime>
+<generatorID>CD1DD537-0118-3728-E4E1-9ED392A47535</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<engineerTo>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+</engineerTo>
+<referedAttribute>87913373-35B2-647B-B969-BC6CD4863BD2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nim" id="FADA2E0F-02A7-6C24-B9E7-09E6207C1ACE">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 12:55:03 UTC</createdTime>
+<generatorID>763524EB-54E4-F7A2-2441-F6732B75310C</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<engineerTo>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+</engineerTo>
+<referedAttribute>0F8C5796-F8CA-6508-1B03-34FFFFE6FC87</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

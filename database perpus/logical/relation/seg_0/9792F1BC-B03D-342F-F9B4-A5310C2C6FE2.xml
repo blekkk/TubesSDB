@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_13" directorySegmentName="seg_0" id="9792F1BC-B03D-342F-F9B4-A5310C2C6FE2">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:20:46 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<engineerTo>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+</engineerTo>
+<targetPk>F476B888-F164-6AF0-846B-6DA4F098E341</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5A859845-7A84-EDBA-1DF0-EF5E36F04F53</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>58C195DB-98B7-D2E3-B50B-A3DA1E413D9E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pinjaman_mhs_FK" directorySegmentName="seg_0" id="78494B2C-FF50-64C1-2AB3-C34648017B62">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="763524EB-54E4-F7A2-2441-F6732B75310C">
 <createdBy>Blek</createdBy>
-<createdTime>2020-11-15 13:48:02 UTC</createdTime>
+<createdTime>2020-11-24 12:55:03 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
@@ -10,10 +10,10 @@
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>*</sourceCardinality>
+<sourceCardinality>1</sourceCardinality>
 <sourceEntity>66176F6C-DED4-F84B-93AC-6927158CFBBE</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>6C00CBBD-7FE5-5A97-A337-21EA5AF624DF</targetEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>309106C7-9D42-B988-54B9-093BEC278A47</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

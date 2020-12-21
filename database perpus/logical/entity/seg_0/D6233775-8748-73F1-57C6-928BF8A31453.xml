@@ -48,42 +48,40 @@
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="penulis_id1" id="13C9AFC6-5D1B-FB01-98B3-AF29AD7B49CD">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:42:09 UTC</createdTime>
-<generatorID>F10D021D-BEA9-C481-35CB-5A7B29C19043</generatorID>
+<Attribute name="tipe_buku" id="60D20135-6652-6260-36E2-B2F03A2BA0BC">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:13:41 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>432E510B-2D64-2FD9-8229-47F30BFA6856</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipe_id1" id="B0FDE3EA-77D4-02EF-CFC3-6A987A05AEF7">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:42:30 UTC</createdTime>
-<generatorID>27C50F5F-3026-8D9D-BEA7-0DF8E22E7F08</generatorID>
+<Attribute name="Penluis" id="07572698-CD62-3540-A0FE-32808AC0F92E">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:14:39 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
 </engineerTo>
-<referedAttribute>7D957FC3-3057-4AC2-45E7-0C4C1A1D9C32</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="penerbit_id1" id="F1812913-0F8F-A9B8-9F35-1CC1809A68F3">
 <createdBy>Bima</createdBy>
@@ -93,7 +91,6 @@
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>491288A4-8685-D661-697B-6C7C5D434E63</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

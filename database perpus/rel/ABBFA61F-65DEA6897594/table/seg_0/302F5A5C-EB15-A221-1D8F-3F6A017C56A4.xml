@@ -101,27 +101,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A1C8E796-0418-F04A-AE21-41C3AB39B127" referredColumn="975C5254-6A36-E4AC-C0E5-6C94416AF2D2"/>
-</associations>
-</Column>
-<Column name="Pinjaman_Mhs_mhs_id" id="26A8CA74-FDA1-EB9D-2D91-06D01F8F19E7">
-<createdBy>Blek</createdBy>
-<createdTime>2020-11-15 13:53:53 UTC</createdTime>
-<ownerDesignName>database perpus</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="213E9F58-A697-7233-A741-F9B8121AC6F5" referredColumn="F998B0EB-69A6-0E19-D4D9-316950B7578E"/>
-</associations>
 </Column>
 <Column name="Peminjam_Mahasiswa_mhs_id" id="9E28BEB8-B6CF-81DB-C984-85C0846AD2D1">
 <createdBy>Blek</createdBy>
@@ -138,12 +120,29 @@
 <createdBy>Blek</createdBy>
 <createdTime>2020-11-15 13:55:03 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="BE158022-C855-B098-16EE-E546E31A5BC4" referredColumn="8D1E68FE-5017-921D-24FE-8349A1A5EDE1"/>
+</associations>
+</Column>
+<Column name="Pinjaman_Mhs_nim" id="9E5B6FBF-1121-C742-8BE8-4F30EA15AAC2">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:28:47 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="213E9F58-A697-7233-A741-F9B8121AC6F5" referredColumn="6B93CE12-982E-4774-ED77-D422886DAA90"/>
 </associations>
 </Column>
 </columns>
@@ -171,17 +170,6 @@
 <colUsage columnID="CBCA9B27-FA90-6DE8-B7B4-6EC0899E9E17"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9D42920F-1259-6D03-17A9-6B85D20146C8" name="Peminjaman_Denda_FK">
-<createdBy>Blek</createdBy>
-<createdTime>2020-11-15 13:41:20 UTC</createdTime>
-<generatorID>D3A0BDE7-F72B-CDDB-E5EE-7AD68CC97910</generatorID>
-<ownerDesignName>database perpus</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="CBCA9B27-FA90-6DE8-B7B4-6EC0899E9E17"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="F4A64185-F066-BD4C-E490-EC28F4C4DE8A" name="Peminjaman_Pinjaman_Mhs_FK">
 <createdBy>Blek</createdBy>
 <createdTime>2020-11-15 13:53:53 UTC</createdTime>
@@ -190,7 +178,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="26A8CA74-FDA1-EB9D-2D91-06D01F8F19E7"/>
+<colUsage columnID="9E5B6FBF-1121-C742-8BE8-4F30EA15AAC2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="DAFC7AAF-4EDF-7801-3360-FA773528F276" name="Peminjaman_Pinjaman_Dosen_FK">

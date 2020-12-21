@@ -8,18 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="mhs_id" id="F998B0EB-69A6-0E19-D4D9-316950B7578E">
-<createdBy>Blek</createdBy>
-<createdTime>2020-11-15 13:48:57 UTC</createdTime>
-<generatorID>2A0B3311-E8A8-CE3B-DFAC-97FD052D795B</generatorID>
-<ownerDesignName>database perpus</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="nim" id="6B93CE12-982E-4774-ED77-D422886DAA90">
 <createdBy>Blek</createdBy>
 <createdTime>2020-11-15 13:48:57 UTC</createdTime>
@@ -56,6 +44,20 @@
 <ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Status_Anggota_ID" id="25647389-97D8-5E1B-38CC-9F2BDBD822FF">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10283169-0524-2AF5-294F-AD271B5D82FA" referredColumn="8B3808CB-2C5C-5942-EFBE-84695818A875"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="51CA9CD9-78B6-1B95-B80B-DD8D913CBF9E" name="Pinjaman_Mhs_PK">
@@ -67,7 +69,29 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F998B0EB-69A6-0E19-D4D9-316950B7578E"/>
+<colUsage columnID="6B93CE12-982E-4774-ED77-D422886DAA90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBF574AE-E693-106F-3FD6-133B06391D5E" name="Pinjaman_Mhs__IDX">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>763524EB-54E4-F7A2-2441-F6732B75310C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="25647389-97D8-5E1B-38CC-9F2BDBD822FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="953CC567-08B9-B50E-460E-1359425783BF" name="Pinjaman_Mhs_Status_Anggota_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>763524EB-54E4-F7A2-2441-F6732B75310C</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25647389-97D8-5E1B-38CC-9F2BDBD822FF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

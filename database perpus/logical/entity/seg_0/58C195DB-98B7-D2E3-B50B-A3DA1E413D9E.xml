@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A4A32AF-7713-15C7-5C72-F7891417A309" name="Penulis">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:24:31 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58C195DB-98B7-D2E3-B50B-A3DA1E413D9E" name="Sanksi">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:16:10 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="penulis_id" id="432E510B-2D64-2FD9-8229-47F30BFA6856">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:24:39 UTC</createdTime>
+<Attribute name="sanksi_id" id="B4C4EC06-1CC7-FAFA-7458-64C781A561AC">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:16:16 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
@@ -28,9 +28,9 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nama_lengkap_penulis" id="9A10586F-5E40-D6D8-76C6-A57737395244">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:24:53 UTC</createdTime>
+<Attribute name="jenis_pelanggaran" id="EAEB5048-54AC-4AC0-827E-CFEAFE785884">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:16:41 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
@@ -38,21 +38,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="300CB808-2948-9821-F7AD-8372D80435C1" name="Penulis PK">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:24:44 UTC</createdTime>
+<identifier id="F476B888-F164-6AF0-846B-6DA4F098E341" name="Sanksi PK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:17:48 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>432E510B-2D64-2FD9-8229-47F30BFA6856</attributeRef>
+<attributeRef>B4C4EC06-1CC7-FAFA-7458-64C781A561AC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

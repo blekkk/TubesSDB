@@ -37,6 +37,7 @@
 <createdTime>2020-11-15 12:54:05 UTC</createdTime>
 <generatorID>D2B70399-2E71-A739-DB6F-0DE1CA8D001E</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -80,39 +81,6 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Penulis_penulis_id" id="0AC9E19A-5A67-88E9-4BA4-0E9288887446">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>13C9AFC6-5D1B-FB01-98B3-AF29AD7B49CD</generatorID>
-<ownerDesignName>database perpus</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B5323322-71EF-A9A4-395A-3E912884A915" referredColumn="C649120B-8A1F-49BE-0ECB-AE3B91F8FF3F"/>
-</associations>
-</Column>
-<Column name="Tipe_Buku_tipe_id" id="8F163CCC-E513-DB58-A682-FB72323B3817">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>B0FDE3EA-77D4-02EF-CFC3-6A987A05AEF7</generatorID>
-<ownerDesignName>database perpus</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B0BA76AD-6CA4-0AAF-837B-CF7044134F33" referredColumn="0EC508B7-26FA-EC6F-39B6-B26EE5F72613"/>
-</associations>
-</Column>
 <Column name="Peminjaman_pinjam_id" id="97BA9C40-C345-CE02-1422-85BA9B929D6A">
 <createdBy>Bima</createdBy>
 <createdTime>2020-11-15 12:54:05 UTC</createdTime>
@@ -134,7 +102,6 @@
 <createdTime>2020-11-15 12:54:05 UTC</createdTime>
 <generatorID>F1812913-0F8F-A9B8-9F35-1CC1809A68F3</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -156,6 +123,32 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipe_buku" id="09B3E357-8A74-88F9-33E8-0DE0E3DEFADE">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>60D20135-6652-6260-36E2-B2F03A2BA0BC</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Penluis" id="6C9939F9-7B16-AC96-00BC-CA029DF95CFD">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>07572698-CD62-3540-A0FE-32808AC0F92E</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -183,17 +176,6 @@
 <colUsage columnID="AF3E0CE3-4E70-908E-6541-E61F4BF6B37F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FE342217-31AC-A2DB-7DD9-2665D57CA434" name="Buku_Penulis_FK">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>F10D021D-BEA9-C481-35CB-5A7B29C19043</generatorID>
-<ownerDesignName>database perpus</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0AC9E19A-5A67-88E9-4BA4-0E9288887446"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="43B4D43C-501E-B788-49E8-B88BFFAC72A8" name="Buku_Peminjaman_FK">
 <createdBy>Bima</createdBy>
 <createdTime>2020-11-15 12:54:05 UTC</createdTime>
@@ -203,17 +185,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="97BA9C40-C345-CE02-1422-85BA9B929D6A"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="E4100815-2213-2B1C-9F28-C0E8A30104CA" name="Buku_Tipe_Buku_FK">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>27C50F5F-3026-8D9D-BEA7-0DF8E22E7F08</generatorID>
-<ownerDesignName>database perpus</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="8F163CCC-E513-DB58-A682-FB72323B3817"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

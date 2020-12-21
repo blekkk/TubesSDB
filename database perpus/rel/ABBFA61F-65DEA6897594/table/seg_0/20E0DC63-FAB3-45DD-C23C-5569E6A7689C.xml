@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20E0DC63-FAB3-45DD-C23C-5569E6A7689C" name="Pinjaman_mhs_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 14:08:19 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pinjaman_Mhs_mhs_id" id="CE0A60CF-A9B9-27FE-C43E-A8B00C9125FD">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 14:08:19 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Peminjaman_pinjam_id" id="284F5F01-FCA7-FFF3-74EF-9105B22AFECE">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 14:08:19 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8A357D4-E864-35AD-F5A3-8FAB588503ED" referredColumn="86C7B733-2C2A-A8F4-2B30-1BC8B78076F6"/>
+</associations>
+</Column>
+<Column name="Pinjaman_Mhs_nim" id="F00C5F00-80D9-59B1-0E06-2CCD6B6D4CCF">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:28:47 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6350DD22-DB18-2F84-8EF0-BBE1B8C5A02A" referredColumn="6B93CE12-982E-4774-ED77-D422886DAA90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFD27143-B52F-8EB7-98CD-101681F8A1F2" name="Pinjaman_mhs_FK_PK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 14:08:19 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE0A60CF-A9B9-27FE-C43E-A8B00C9125FD"/>
+<colUsage columnID="284F5F01-FCA7-FFF3-74EF-9105B22AFECE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5954B90C-8487-08D4-D8EE-7F9FE303BA56" name="Pinjaman_mhs_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 14:08:19 UTC</createdTime>
+<generatorID>78494B2C-FF50-64C1-2AB3-C34648017B62</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F00C5F00-80D9-59B1-0E06-2CCD6B6D4CCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="252D96A9-2AF8-C0C5-2447-8BAF43E4EDE0" name="Pinjaman_mhs_FK_Peminjaman_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 14:08:19 UTC</createdTime>
+<generatorID>78494B2C-FF50-64C1-2AB3-C34648017B62</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="284F5F01-FCA7-FFF3-74EF-9105B22AFECE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

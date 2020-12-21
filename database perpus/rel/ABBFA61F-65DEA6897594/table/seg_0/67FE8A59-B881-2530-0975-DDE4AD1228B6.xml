@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67FE8A59-B881-2530-0975-DDE4AD1228B6" name="Status_Anggota">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>309106C7-9D42-B988-54B9-093BEC278A47</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Aktif_Hingga" id="E26451B4-4834-C271-8ABA-0E70EEB9BE06">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>13B74DD4-991D-5D8D-6CD2-D8B8BB21CB07</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_Sanksi" id="4379F510-7E4A-A231-38C6-DE6456550129">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>82564E76-169F-BDAB-F354-6377A250F8EE</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pinjaman_Dosen_dsn_id" id="C0F83DA7-3C2C-974B-0FAA-4A296C52C352">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>2787FE27-A175-C665-C902-A8D332EF114F</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38783F2E-7893-955D-455E-B31D6ACE79D4" referredColumn="8D1E68FE-5017-921D-24FE-8349A1A5EDE1"/>
+</associations>
+</Column>
+<Column name="nim" id="4FA5076F-2758-F965-26E6-692B298158F3">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>FADA2E0F-02A7-6C24-B9E7-09E6207C1ACE</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_Anggota_ID" id="8B3808CB-2C5C-5942-EFBE-84695818A875">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Pinjaman_Mhs_nim" id="DCA046C6-C6B9-57A7-1025-81392E70DEED">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:28:47 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5240DBE-88F5-B299-40BA-86152D935F7D" referredColumn="6B93CE12-982E-4774-ED77-D422886DAA90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CA903C3-7B28-071B-A57F-9D119CA2660E" name="Status_Anggota_PK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8B3808CB-2C5C-5942-EFBE-84695818A875"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="506B9D4A-FDCE-9B75-07F0-6563CFE71A66" name="Status_Anggota__IDX">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CD1DD537-0118-3728-E4E1-9ED392A47535</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C0F83DA7-3C2C-974B-0FAA-4A296C52C352"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9711A045-7FE6-7D7D-EDBC-8B4D618533EA" name="Status_Anggota_P_Dsn_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>CD1DD537-0118-3728-E4E1-9ED392A47535</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0F83DA7-3C2C-974B-0FAA-4A296C52C352"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27F71F98-6055-DD26-5B95-BA17FD001BAC" name="Status_Anggota_P_Mhs_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>763524EB-54E4-F7A2-2441-F6732B75310C</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCA046C6-C6B9-57A7-1025-81392E70DEED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

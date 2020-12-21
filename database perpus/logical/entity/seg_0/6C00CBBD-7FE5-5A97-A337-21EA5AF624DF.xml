@@ -52,21 +52,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="denda_id1" id="937A65BF-0183-596C-BA75-55370C2B0422">
-<createdBy>Blek</createdBy>
-<createdTime>2020-11-15 13:37:17 UTC</createdTime>
-<generatorID>D3A0BDE7-F72B-CDDB-E5EE-7AD68CC97910</generatorID>
-<ownerDesignName>database perpus</ownerDesignName>
-<engineerTo>
-<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
-</engineerTo>
-<referedAttribute>34CE740A-5885-2695-1453-40DA451959E6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="37ECA220-BBB8-CD5D-1D4E-B6CDBD538928" name="Peminjaman PK">

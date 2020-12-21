@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BDEED35-85B6-76FE-911B-00FD3F796348" name="dsn_pinjam">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 14:08:19 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pinjaman_Dosen_dsn_id" id="17BBF8BC-CBE3-90E1-FD3D-F5673A7C4E1D">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 14:08:19 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB9FB4AB-3A38-19DD-181B-C97EBAF206A5" referredColumn="8D1E68FE-5017-921D-24FE-8349A1A5EDE1"/>
+</associations>
+</Column>
+<Column name="Peminjaman_pinjam_id" id="592EB38D-B43D-821A-96D4-2B9975352D94">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 14:08:19 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C7B8F86-D699-22FD-6339-B88E7E916769" referredColumn="86C7B733-2C2A-A8F4-2B30-1BC8B78076F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B482E622-90B4-BE44-9929-6584C4F0A1EE" name="dsn_pinjam_PK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 14:08:19 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17BBF8BC-CBE3-90E1-FD3D-F5673A7C4E1D"/>
+<colUsage columnID="592EB38D-B43D-821A-96D4-2B9975352D94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FE72237-A2C3-EFFD-C54D-F3ABD9F0EB8F" name="dsn_pinjam_Pinjaman_Dosen_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 14:08:19 UTC</createdTime>
+<generatorID>EB7D6DCB-F218-C1BC-FA6B-74FE329D8BB0</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17BBF8BC-CBE3-90E1-FD3D-F5673A7C4E1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9198BDE7-196A-A9F3-5C2C-23AD51D3469A" name="dsn_pinjam_Peminjaman_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-15 14:08:19 UTC</createdTime>
+<generatorID>EB7D6DCB-F218-C1BC-FA6B-74FE329D8BB0</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="592EB38D-B43D-821A-96D4-2B9975352D94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

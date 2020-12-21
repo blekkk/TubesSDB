@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9CCFDDC-C86A-38C5-7A00-A43613B04520" name="Tipe_Buku">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>610E46AE-69B1-DABD-AEB4-58B8C6293CDD</generatorID>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C205E06-A8DE-11D9-5046-ADC1CDDB801D" name="Sanksi">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>58C195DB-98B7-D2E3-B50B-A3DA1E413D9E</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="tipe_id" id="0EC508B7-26FA-EC6F-39B6-B26EE5F72613">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>7D957FC3-3057-4AC2-45E7-0C4C1A1D9C32</generatorID>
+<Column name="sanksi_id" id="34F3D565-0F01-FE1B-F976-5C5CE4BE6598">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>B4C4EC06-1CC7-FAFA-7458-64C781A561AC</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,30 +20,30 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tipe_buku" id="AB53D4AE-E565-C0CE-582F-253013AD0523">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>AB4225C5-D7C9-789B-10D1-EAC3918CBCDF</generatorID>
+<Column name="jenis_pelanggaran" id="123E5F9C-6617-250C-1A02-C9A0F62E2911">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>EAEB5048-54AC-4AC0-827E-CFEAFE785884</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D5746A6F-3A2F-F560-6BE8-C058E11F9A82" name="Tipe_Buku_PK">
-<createdBy>Bima</createdBy>
-<createdTime>2020-11-15 12:54:05 UTC</createdTime>
-<generatorID>18635B79-42E4-5404-ABAF-59D4E46448A7</generatorID>
+<ind_PK_UK id="CA56D872-B22E-0884-FA2E-C956092870A2" name="Sanksi_PK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>F476B888-F164-6AF0-846B-6DA4F098E341</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0EC508B7-26FA-EC6F-39B6-B26EE5F72613"/>
+<colUsage columnID="34F3D565-0F01-FE1B-F976-5C5CE4BE6598"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

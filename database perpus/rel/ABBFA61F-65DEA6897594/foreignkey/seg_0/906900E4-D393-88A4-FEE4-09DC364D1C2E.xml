@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="906900E4-D393-88A4-FEE4-09DC364D1C2E" containerWithKeyObject="E58B3329-0582-F459-83B0-C802B7C67EE2" localFKIndex="C2165A67-2C85-2E5C-10C1-75CA7A5484F6" name="Relation_12_Peminjaman_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>339B1A51-D85C-5A18-836E-3C66F17D72F1</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<referredTableLongName>Peminjaman</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>302F5A5C-EB15-A221-1D8F-3F6A017C56A4</referredTableID>
+<keyObject>7986DF0E-98B7-7C8D-FF68-BC020A874AE4</keyObject>
+<referredKeyID>7986DF0E-98B7-7C8D-FF68-BC020A874AE4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pinjam_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

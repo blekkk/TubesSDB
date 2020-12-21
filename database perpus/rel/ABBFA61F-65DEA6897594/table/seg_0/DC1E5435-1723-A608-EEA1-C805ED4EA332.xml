@@ -13,8 +13,11 @@
 <createdTime>2020-11-15 12:54:05 UTC</createdTime>
 <generatorID>87913373-35B2-647B-B969-BC6CD4863BD2</generatorID>
 <ownerDesignName>database perpus</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="nama_lengkap_dsn" id="790EE94A-83B6-A141-B537-DB0D68BCC7A7">
@@ -41,6 +44,20 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Status_Anggota_ID" id="ADCBC63A-F2B0-8E37-E43B-49C180AD6A44">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E518F84-85C2-C77C-D949-90A20EC75C4D" referredColumn="8B3808CB-2C5C-5942-EFBE-84695818A875"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="DF1D6083-105D-4DEA-3D56-E78156EB3F21" name="Pinjaman_Dosen_PK">
@@ -53,6 +70,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8D1E68FE-5017-921D-24FE-8349A1A5EDE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="100A6E61-349C-0F2B-CC3E-144AF6F890AE" name="Pinjaman_Dosen__IDX">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CD1DD537-0118-3728-E4E1-9ED392A47535</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="ADCBC63A-F2B0-8E37-E43B-49C180AD6A44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7DF023B-50DC-D1B1-D600-B24E963A70C1" name="Pinjaman_Dosen_S_A_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>CD1DD537-0118-3728-E4E1-9ED392A47535</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADCBC63A-F2B0-8E37-E43B-49C180AD6A44"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

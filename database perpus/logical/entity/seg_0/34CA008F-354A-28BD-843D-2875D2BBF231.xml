@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nama_lengkap_dsn" id="2B7941C6-8254-CC75-528A-FC24FF44358B">
 <createdBy>Bima</createdBy>

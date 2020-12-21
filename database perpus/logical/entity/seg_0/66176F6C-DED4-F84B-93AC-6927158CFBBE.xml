@@ -15,19 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="mhs_id" id="2A0B3311-E8A8-CE3B-DFAC-97FD052D795B">
-<createdBy>Blek</createdBy>
-<createdTime>2020-11-15 13:46:19 UTC</createdTime>
-<ownerDesignName>database perpus</ownerDesignName>
-<engineerTo>
-<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="nim" id="0F8C5796-F8CA-6508-1B03-34FFFFE6FC87">
 <createdBy>Blek</createdBy>
 <createdTime>2020-11-15 13:46:19 UTC</createdTime>
@@ -73,13 +60,14 @@
 <createdBy>Blek</createdBy>
 <createdTime>2020-11-15 13:46:37 UTC</createdTime>
 <ownerDesignName>database perpus</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="true"/>
+<item key="ABBFA61F-006D-42B5-5B52-65DEA6897594" value="false"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>2A0B3311-E8A8-CE3B-DFAC-97FD052D795B</newElementsIDs>
+<newElementsIDs>0F8C5796-F8CA-6508-1B03-34FFFFE6FC87</newElementsIDs>
 <usedAttributes>
-<attributeRef>2A0B3311-E8A8-CE3B-DFAC-97FD052D795B</attributeRef>
+<attributeRef>0F8C5796-F8CA-6508-1B03-34FFFFE6FC87</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

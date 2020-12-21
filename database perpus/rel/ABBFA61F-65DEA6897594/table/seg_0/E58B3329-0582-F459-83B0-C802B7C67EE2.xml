@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E58B3329-0582-F459-83B0-C802B7C67EE2" name="pelanggaran">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<ordsAlias>relation_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Peminjaman_pinjam_id" id="9EBCBD24-243F-37DD-C8CF-DD688736965E">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="906900E4-D393-88A4-FEE4-09DC364D1C2E" referredColumn="86C7B733-2C2A-A8F4-2B30-1BC8B78076F6"/>
+</associations>
+</Column>
+<Column name="Sanksi_sanksi_id" id="729912B3-75DF-D94C-7670-8DD582AF4DDE">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7F6BDFA-5AD1-A1F4-504E-9F92D37D9940" referredColumn="34F3D565-0F01-FE1B-F976-5C5CE4BE6598"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AE0F1B4-6123-77D8-FE17-A24EDAD68B58" name="Relation_12_PK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<ownerDesignName>database perpus</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EBCBD24-243F-37DD-C8CF-DD688736965E"/>
+<colUsage columnID="729912B3-75DF-D94C-7670-8DD582AF4DDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2165A67-2C85-2E5C-10C1-75CA7A5484F6" name="Relation_12_Peminjaman_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>339B1A51-D85C-5A18-836E-3C66F17D72F1</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EBCBD24-243F-37DD-C8CF-DD688736965E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE54BEB5-4792-8A58-F2B0-633E7D1C5398" name="Relation_12_Sanksi_FK">
+<createdBy>Blek</createdBy>
+<createdTime>2020-11-24 13:24:24 UTC</createdTime>
+<generatorID>339B1A51-D85C-5A18-836E-3C66F17D72F1</generatorID>
+<ownerDesignName>database perpus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="729912B3-75DF-D94C-7670-8DD582AF4DDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
