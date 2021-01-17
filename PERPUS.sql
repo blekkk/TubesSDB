@@ -44,13 +44,13 @@ CREATE TABLE denda (
 );
 
 CREATE TABLE status_anggota (
-    aktif_hingga    DATE NOT NULL,
-    status_sanksi   NUMBER(1) NOT NULL
+    status_sanksi   NUMBER(1) PRIMARY KEY NOT NULL,
+    aktif_hingga    DATE NOT NULL
 );
 
 ALTER TABLE peminjam
-ADD CONSTRAINT peminjam_pinjaman_fk FOREIGN KEY ( id_pinjam ) 
-REFERENCES pinjaman ( pinjam_id );
+ADD CONSTRAINT peminjam_peminjaman_fk FOREIGN KEY ( id_pinjam ) 
+REFERENCES peminjaman ( pinjam_id );
 
 ALTER TABLE peminjam
 ADD CONSTRAINT peminjam_status_anggota_fk FOREIGN KEY ( status_sanksi_peminjam )
